@@ -1,0 +1,8 @@
+version: '3'
+services:
+  
+  docker-go-plugin:
+    build:
+      context: .
+    volumes:
+      - ./build:/go/src/github.com/dirkarnez/go-plugin-example/build
